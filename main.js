@@ -67,9 +67,9 @@ const winner = () => {
       ) {
         resultText.innerHTML = `Player ${pos1.innerHTML} wins`;
         resultContainer.classList.remove("hide");
-        pos1.setAttribute("class", "new");
-        pos2.setAttribute("class", "new");
-        pos3.setAttribute("class", "new");
+        // pos1.setAttribute("class", "new");
+        // pos2.setAttribute("class", "new");
+        // pos3.setAttribute("class", "new");
         // console.log(pos1)
         disableBoxes();
       }
